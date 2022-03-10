@@ -1,0 +1,118 @@
+* {
+    background: grey;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.box {
+    width: 500px;
+    height: 200px;
+    border: 1px dashed black;
+    background: #ee7777;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0
+
+}
+
+.buttons button {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 125px;
+    height: 30px;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.buttons button:hover {
+    background: #d9cec3;
+    color: #520606;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.oval {
+    background: #4f4343;
+
+}
+
+.square {
+    border-radius: 50%;
+}
+
+.nextTask {
+    width: 500px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.name {
+    background: white;
+    margin-top: 50px;
+    height: 20px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.go, .clean{
+    border: 1px solid black;
+    margin-left: 5px;
+    background: #c56e6e;
+    border-radius: 5px;
+}
+.case{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.one{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.case{
+    margin-top: 100px;
+
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 70px -15px
+}
+
+.col-2{
+    width: 15%;
+    height: 70px;
+    padding: 0 15px;
+    border: 1px solid black;
+}
+
+.backgroundCol{
+    background: green;
+}
